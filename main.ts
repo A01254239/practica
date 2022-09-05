@@ -3,19 +3,18 @@ input.onButtonPressed(Button.A, function () {
     basic.showNumber(numero1)
 })
 input.onButtonPressed(Button.AB, function () {
-    basic.showString("Buenas noches")
+    texto = Bye
 })
 input.onButtonPressed(Button.B, function () {
     numero1 += -1
     basic.showNumber(numero1)
 })
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
-    basic.showString("Buenos Dias")
+    basic.showString(texto)
 })
+let Bye = ""
+let texto = ""
 let numero1 = 0
 numero1 = 0
-let numero2 = 0
-let suma = 0
-let resta = 0
-let multiplicacion = 0
-let texto = ""
+texto = "hi"
+Bye = "bye"
